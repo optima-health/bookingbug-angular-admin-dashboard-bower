@@ -138,7 +138,7 @@
 
   angular.module('BBAdminDashboard.translations', []);
 
-  BBAdminDashboardDependencies = ['ngStorage', 'ngResource', 'ngTouch', 'ngSanitize', 'ngIdle', 'ngLocalData', 'ngInputDate', 'ngCookies', 'BBAdmin', 'BBAdminServices', 'BBAdminBooking', 'BBAdmin.Directives', 'ui.calendar', 'ui.bootstrap', 'ui.router', 'ui.select', 'ct.ui.router.extras', 'trNgGrid', 'xeditable', 'toggle-switch', 'pascalprecht.translate', 'BBAdminDashboard.controllers', 'BBAdminDashboard.filters', 'BBAdminDashboard.services', 'BBAdminDashboard.directives', 'BBAdminDashboard.translations', 'BBAdminDashboard.check-in', 'BBAdminDashboard.clients', 'BBAdminDashboard.departments', 'BBAdminDashboard.login', 'BBAdminDashboard.logout', 'BBAdminDashboard.calendar', 'BBAdminDashboard.dashboard-iframe', 'BBAdminDashboard.members-iframe', 'BBAdminDashboard.settings-iframe', 'BBAdminDashboard.config-iframe', 'BBAdminDashboard.publish-iframe'];
+  BBAdminDashboardDependencies = ['ngStorage', 'ngResource', 'ngTouch', 'ngSanitize', 'ngIdle', 'ngLocalData', 'ngInputDate', 'ngCookies', 'BBAdmin', 'BBAdminServices', 'BBAdminBooking', 'BBAdmin.Directives', 'ui.calendar', 'ui.bootstrap', 'ui.router', 'ui.select', 'trNgGrid', 'xeditable', 'toggle-switch', 'pascalprecht.translate', 'BBAdminDashboard.controllers', 'BBAdminDashboard.filters', 'BBAdminDashboard.services', 'BBAdminDashboard.directives', 'BBAdminDashboard.translations', 'BBAdminDashboard.check-in', 'BBAdminDashboard.clients', 'BBAdminDashboard.departments', 'BBAdminDashboard.login', 'BBAdminDashboard.logout', 'BBAdminDashboard.calendar', 'BBAdminDashboard.dashboard-iframe', 'BBAdminDashboard.members-iframe', 'BBAdminDashboard.settings-iframe', 'BBAdminDashboard.config-iframe', 'BBAdminDashboard.publish-iframe'];
 
   adminBookingApp = angular.module('BBAdminDashboard', BBAdminDashboardDependencies).config([
     '$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
@@ -1112,7 +1112,7 @@
                                    - {array}   selectedResources    array of selected resource to filter against
                                    - {string}  labelAssembler       the pattern to use for bookings (see TitleAssembler)
                                    - {string}  blockLabelAssembler  the pattern to use for blocks (see TitleAssembler)
-        
+
         * @returns {Promise} Promise which once resolved returns an array of bookings and blocks
          */
         getBookingsAndBlocks: function(company, start, end, options) {
@@ -1173,7 +1173,7 @@
         * @param {object} options  Object which contains usefull flags and params
                                    The relevant ones for this method are:
                                    - {string}  externalLabelAssembler  the pattern to use for the title (see TitleAssembler)
-        
+
         * @returns {Promise} Promise which once resolved returns an array of bookings
          */
         getExternalBookings: function(company, start, end, options) {
@@ -1236,7 +1236,7 @@
                                    - {boolean} showAll              skip the filter by resource filter
                                    - {array}   selectedResources    array of selected resource to filter against
                                    - {string}  calendarView         identifies which view the calendar is curently displaying (enum: 'timelineDay', 'agendaWeek', 'month')
-        
+
         * @returns {Promise} Promise which once resolved returns an array of availability background events
          */
         getAvailabilityBackground: function(company, start, end, options) {
@@ -2365,7 +2365,7 @@
 * @name BBAdminDashboard.services.service:BusyService
 *
 * @description
-* 
+*
 *
  */
 
