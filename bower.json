@@ -10,8 +10,7 @@
   "main": [
     "bookingbug-angular-admin-dashboard.js",
     "bookingbug-angular-admin-dashboard-templates.js",
-    "bookingbug-angular-admin-dashboard.css",
-    "src/stylesheets/*"
+    "bookingbug-angular-admin-dashboard.css"
   ],
   "license": "MIT",
   "ignore": [
