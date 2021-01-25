@@ -22,12 +22,12 @@
     "tests"
   ],
   "dependencies": {
-    "bookingbug-angular-core": "1.4.114",
-    "bookingbug-angular-admin": "1.4.114",
-    "bookingbug-angular-member": "master",
-    "bookingbug-angular-admin-booking": "master",
-    "bookingbug-angular-services": "master",
-    "bookingbug-angular-events": "master",
+    "bookingbug-angular-core": "git://github.com/optima-health/bookingbug-angular-core-bower#chore/update-angular-spectrum-colorpicker",
+    "bookingbug-angular-admin": "git://github.com/optima-health/bookingbug-angular-admin-bower#chore/update-bookingbug-angular-core",
+    "bookingbug-angular-member": "git://github.com/optima-health/bookingbug-angular-member-bower#chore/update-bookingbug-angular-core",
+    "bookingbug-angular-admin-booking": "git://github.com/optima-health/bookingbug-angular-admin-booking-bower#chore/update-bookingbug-angular-core",
+    "bookingbug-angular-services": "git://github.com/optima-health/bookingbug-angular-services-bower#chore/update-bookingbug-angular-core",
+    "bookingbug-angular-events": "git://github.com/optima-health/bookingbug-angular-events-bower#chore/update-bookingbug-angular-core",
     "AdminLTE-angular-sass": "~0.0.1",
     "fullcalendar-scheduler": "~1.4.0",
     "jqueryui-touch-punch": "*",
