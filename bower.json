@@ -20,10 +20,10 @@
     "tests"
   ],
   "dependencies": {
-    "bookingbug-angular-core": "git://github.com/optima-health/bookingbug-angular-core-bower#1.4.118"
-    "bookingbug-angular-admin": "git://github.com/optima-health/bookingbug-angular-admin-bower#1.4.118"
-    "bookingbug-angular-admin-booking": "git://github.com/optima-health/bookingbug-angular-admin-booking-bower#1.4.118"
-    "bookingbug-angular-services": "git://github.com/optima-health/bookingbug-angular-services-bower#1.4.118"
+    "bookingbug-angular-core": "git://github.com/optima-health/bookingbug-angular-core-bower#1.4.118",
+    "bookingbug-angular-admin": "git://github.com/optima-health/bookingbug-angular-admin-bower#1.4.118",
+    "bookingbug-angular-admin-booking": "git://github.com/optima-health/bookingbug-angular-admin-booking-bower#1.4.118",
+    "bookingbug-angular-services": "git://github.com/optima-health/bookingbug-angular-services-bower#1.4.118",
     "fullcalendar": "2.7.2",
     "fullcalendar-scheduler": "1.3.1",
     "jqueryui-touch-punch": "*",
