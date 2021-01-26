@@ -45,6 +45,6 @@
     "moment": "~2.13.0",
     "jquery": "~1.11.2",
     "fullcalendar": "2.7.2",
-    "components-font-awesome": "~4.5",
+    "components-font-awesome": "~4.5"
   }
 }
